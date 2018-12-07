@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+
+
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+
+
+<style>
+iframe {width:500px;height:90px;}
+ body{
+        /*background: blue;*/
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-image: url('static/bj.jpg');
+        color: #FFF;
+   }
+.STYLE9 {
+        color: #FFFFFF;
+        font-weight: bold;
+}
+</style>
+<style type="text/css">
+<!--
+.STYLE1 {
+        color: #FF0000;
+        font-weight: bold;
+}
+.STYLE2 {color: #000000; font-weight: bold; }
+.STYLE3 {color: #FF0000}
+.asddas {
+        color: #F00;
+}
+-->
+</style>
+</head>
+<body>
+
+<form method="post">
+  <h2>选择列表查看服务器负载</h2>
+  <strong> <h4>页面5秒后显示,每次访问返回信息为<span class="STYLE3">服务器5秒的负载情况 </span>,如继续查看请按F5刷新最新数据</h4>  </strong>
+ <strong> <p class="asddas">
+
+    <select id="province" style="width:200px;"></select>  
+    <select id="city" name='name' style="width:150px;"> </select>  
+    <input type="submit" value="ok" />
+    </p> </strong>
+</form>
+
+<br \>
+<br \>
+
+
+<button id= 'qlyD' class="STYLE3">显示/隐藏qly_mongodb_IP对应表</button>
+ <div id="divM1" style="display:none">
+<strong> <h4>tts_spider_qly库</h4>  </strong>
+<img alt="140x140" src="http://img.taotaosou.com/image17/M06/00/08/CgAAQVjH0cYIAAAAAAAwRHAD7ZwAACZ6QKnYUMAADBc291.png" />
+</div>
+ <div id="diVM2" style="display:none">
+<strong> <h4>qly京东自然分词库</h4>  </strong>
+<img alt="140x140" src="http://img.taotaosou.com/image17/M09/00/08/CgAAOljHzK4IAAAAAAANOZ7cWBcAACZ4AP_8oAAAA2A476.png" />
+</div>
+ <div id="divM3" style="display:none">
+<strong> <h4>qly京东自然搜索库</h4>  </strong>
+<img alt="140x140" src="http://img.taotaosou.com/image17/M07/00/08/CgAAQVjHzLEIAAAAAAAOACsL2t4AACZ5gP_8CAAAA4Y874.png" />
+<br \>
+<br \>
+<br \>
+<br \>
+</div>
+
+
+<button id= 'bijiaD' class="STYLE3">显示/隐藏bijia_mongodbIP对应表</button>
+ <div id="divB1" style="display:none">
+<strong> <h4>商品库</h4>  </strong>
+<img alt="140x140" src="http://img.taotaosou.com/image17/M06/00/08/CgAAOljHzkoIAAAAAAAxaQVDMKsAACZ6QIgirkAADGB166.png" />
+<br \>
+<br \>
+<br \>
+<br \>
+</div>
+
+
+
+<button id= 'mysqlD' class="STYLE3">显示/隐藏Mysql_IP对应表</button>
+<div id="divsql1" style="display:none">
+<strong> <h4>主站、帮我找后台</h4>  </strong>
+<img alt="140x140" src="http://img.taotaosou.com/image17/M09/00/08/CgAAOljInLkIAAAAAAAcesAG60QAACZ6wLkvygAAByS208.png" />
+</div>
+
+<div id="divsql2" style="display:none">
+<strong> <h4>spider、咨询版采集</h4>  </strong>
+<img alt="140x140" src="http://img.taotaosou.com/image17/M09/00/08/CgAAQVjInLsIAAAAAAAWtDru-M8AACZ6wLk27oAABbM603.png" />
+</div>
+
+<div id="divsql3" style="display:none">
+<strong> <h4>spider、咨询版采集</h4>  </strong>
+<img alt="140x140" src="http://img.taotaosou.com/image17/M09/00/08/CgAAOljInL0IAAAAAAATMbttDaUAACZ6wLk8oYAABNJ449.png" />
+</div>
+<div id="divsql4" style="display:none">
+<strong> <h4>图媒体、广告、新主站、积分银行、交易系统<h4>  </strong>
+<img alt="140x140" src="http://img.taotaosou.com/image17/M09/00/08/CgAAQVjIoV0IAAAAAAATtBD4qQMAACZ6wL968cAABPM559.png" />
+</div>
+<div id="divsql5" style="display:none">
+<strong> <h4>用户数据行为、用户标签计算、分词器、类目预判、平台组监控</h4>  </strong>
+<img alt="140x140" src="http://img.taotaosou.com/image17/M09/00/08/CgAAOljInMAIAAAAAAASTVQsWNIAACZ6wLlGkcAABJl191.png" />
+</div>
+<div id="divsql6" style="display:none">
+<strong> <h4>消息中心、CPV类目</h4>  </strong>
+<img alt="140x140" src="http://img.taotaosou.com/image17/M09/00/08/CgAAQVjInMIIAAAAAAAat5Nxw1wAACZ6wLlLKwAABrP600.png" />
+</div>
+<div id="divsql7" style="display:none">
+<strong> <h4>mycat，spider</h4>  </strong>
+<img alt="140x140" src="http://img.taotaosou.com/image17/M09/00/08/CgAAOljInMQIAAAAAAAPO6MGeDEAACZ6wLlR3sAAA9T786.png" />
+</div>
+<br \>
+<br \>
+<br \>
+<br \>
+
+
+
+<div id="codeStateWrap" style="display:none">
+	<h2>服务器<span class="STYLE3">{{PP}}</span>的负载情况如下,按<span class="STYLE3">F5</span>刷新数据</h2>
+	<ul id="codeState" style="display:none">
+	{% for i in ss %}
+	<li>{{i}}</li>
+	{% endfor %}
+	</ul>	
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+ var $codeStateWrap = $("#codeStateWrap");
+
+window.onload=function(){  
+    createProvinces();         
+    province.onchange=createCities;  
+}  
+var provinces=['选择库名','qly_mongo集群','qly_mongo京东自然分词库','qly_mongo京东自然搜索库','比价mongo商品库','mysql主站,帮我找后台','mysql商品中心,spider','mysql咨询版采集,spider','mysql广告、新主站','mysql千里眼,用户数据行为','mysql消息中心、CPV类目','mysql中间件mycat'];   
+var cities=[  
+    ['选择IP'],  
+    ['192.168.3.112','10.0.0.189','10.0.0.168','192.168.3.135','192.168.3.113','192.168.3.137','10.0.0.170','10.0.0.200'],  
+    ['192.168.3.192 ','192.168.3.193'],  
+    ['192.168.3.190','192.168.3.191'], 
+    ['10.0.0.32','192.168.3.194','10.0.0.95','192.168.3.195','10.0.0.75','10.0.0.96','10.0.0.97','10.0.0.89','10.0.0.166','10.0.0.98'], 
+    ['10.0.0.81','10.0.0.83'], 
+    ['10.0.0.82','10.0.0.84'], 
+    ['10.0.0.78','10.0.0.77'], 
+    ['10.0.0.141','10.0.0.142'], 
+    ['10.0.0.76','10.0.0.94'], 
+    ['10.0.0.33','10.0.0.99'], 
+    ['10.0.0.101','10.0.0.171','10.0.0.102','10.0.0.172'], 
+];  
+
+var province=document.getElementById("province");    
+var city=document.getElementById("city"); 
+function createProvinces(){  
+    for(var i in provinces){  
+        var op=new Option(provinces[i],provinces[i]);    
+        province.options.add(op);   
+    }  
+}  
+  
+function createCities(){  
+    var index=province.selectedIndex;    
+    city.options.length=0;   
+    for(var i in cities[index]){  
+        var op=new Option(cities[index][i],cities[index][i]);  
+        city.options.add(op);  
+    }  
+}  
+
+
+  var elems = document.querySelectorAll('#codeState li'), dataArray = [];
+  Array.prototype.forEach.call(elems, function(item, i, array){
+
+    if(i=== 0 || i === 1 || i === 2 || i === array.length - 1) {
+      return;
+    }
+    dataArray.push(item.innerHTML.replace(/\|/g, ' ').replace(/\s+/g, ' ').trim().split(' '));
+  });
+
+  var tableStringPre = '<table border=1 style="width: 800px; border: 1px solid white;text-align: center">' + '<tr><td colspan=6>CPU使用情况</td><td colspan=2>磁盘读写</td><td colspan=3>服务器load</td><td colspan=2>网络接收</td></tr>' + 
+                    '<tr><td>usr</td><td>sys</td><td>idl</td><td>wai</td><td>hiq</td><td>siq</td><td>read</td><td>writ</td><td>1m</td><td>5m</td><td>15m</td><td>recv</td><td>send</td></tr>';
+  dataArray.forEach(function(item, i) {
+    tableStringPre += '<tr>';
+    item.forEach(function(item, i) {
+      tableStringPre += '<td>' + item + '</td>'
+    });
+
+  tableStringPre += '</tr>'
+  });
+  tableStringPre += '</table>';
+
+  var divElement = document.createElement('div');
+  divElement.innerHTML = tableStringPre;
+  $codeStateWrap.append(divElement);
+  if(dataArray.length > 0){
+  	$codeStateWrap.show();
+  }
+
+$(document).ready(function(){
+  $("#qlyD").click(function(){
+    $("#divM1").fadeToggle(0);
+    $("#diVM2").fadeToggle(500);
+    $("#divM3").fadeToggle(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#bijiaD").click(function(){
+    $("#divB1").fadeToggle();
+  });
+});
+
+$(document).ready(function(){
+  $("#mysqlD").click(function(){
+    $("#divsql1").fadeToggle(0);
+    $("#divsql2").fadeToggle(200);
+    $("#divsql3").fadeToggle(400);
+    $("#divsql4").fadeToggle(600);
+    $("#divsql5").fadeToggle(800);
+    $("#divsql6").fadeToggle(1000);
+    $("#divsql7").fadeToggle(1200);
+  });
+});
+
+
+</script>
+
+
+</body>

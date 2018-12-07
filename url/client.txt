@@ -1,0 +1,4 @@
+http://10.0.0.22:7180/sales/tuansales.do
+http://192.168.3.186:7180/sales/tuansales.do
+http://10.0.0.183:7180/sales/tuansales.do
+http://10.0.0.51:7180/sales/tuansales.do

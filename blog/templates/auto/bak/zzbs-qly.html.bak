@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>qly部署</title>
+<style type="text/css">
+<!--
+                .STYLE1 {
+                                                font-size: 24px;
+                                                                                                                        font-weight: bold;
+                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                .STYLE3 {color: #FF0000;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 font-weight: bold; }
+
+                                                                            .STYLE4 {color: #000000}
+
+                                                                                                                                                                                                    .STYLE5 {color: #000000; font-weight: bo
+                                                                                                                                                                                                    ld; }
+
+
+                                                                                                    .STYLE6 {color: #FF0000}
+
+
+
+                        -->
+</style>
+</head>
+
+<body>
+<p align="center" class="STYLE1">主站 qly 发布 </p>
+<strong></B>一.先把安装包拷过来</strong>
+<p><B>
+  <input name="button82" type="button" class="STYLE1" onClick="window.open('http://192.168.3.31/registerqly.html','_blank')" value="qly包线上传输"/>
+          </B><B></p>
+                            <p>&nbsp;</p>
+                                                            <p class="STYLE3"><span class="STYLE4">二.</span>aotoconfig<span class="STYLE4">，自动将其拷贝至部署目录：：：</span></p>
+
+<input name="button722" type="button" class="STYLE1" onclick="window.open('http://192.168.3.31/autoqly.html','_blank')" value="qly打auto"/>
+<p class="STYLE3">&nbsp;</p>
+<p>&nbsp;</p>
+<p class="STYLE5">三.执行部署时要注意，工程包标签日期要是今天，如不是需到服务器目录修改至今天。</p>
+<p class="STYLE3">注意：：请依次执行各台服务器，注意留tomcat启动时间，不然全死光用户进不来了</span></p>
+<p class="STYLE5"><span class="STYLE6">192.168.3.39</span> 部署</p>
+<p>
+  <input name="button72" type="button" class="STYLE1" onClick="window.open('http://192.168.3.31/qlydep_39.html','_blank')" value="192.168.3.39部署"/>
+  </p>
+  <p class="STYLE5"><span class="STYLE6">192.168.3.40</span> 部署</p>
+  <p>
+    <input name="button723" type="button" class="STYLE1" onclick="window.open('http://192.168.3.31/qlydep_40.html','_blank')" value="192.168.3.40部署"/>
+    </p>
+    <p>&nbsp;</p>
+    <p class="STYLE5">&nbsp;</p>
+                <p class="STYLE4">&nbsp;</p>
+                                                  <p class="STYLE5">四.<span class="STYLE3">验证3.39和3.40的8480端口，感觉还不靠谱，等有新地址在加</span></p>
+                                                                                                             <p class="STYLE5">
+                         <input name="button7232" type="button" class="STYLE1" onclick="window.open('http://qly.taotaosou.com/shopList.do?uid=1','_blank')" value="qly验证"/>
+                                                                                                                                 </p>
+                                                                                                                                                                                                                                                                   <p class="STYLE5">&nbsp;</p>
+                                                                                                                                                                                                                                                                   </body>
+
+</html>

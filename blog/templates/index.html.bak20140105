@@ -1,0 +1,113 @@
+<!DOCTYPE html><head>
+<meta charset="utf-8" />
+<title>{{title}}</title>
+</head>
+
+
+<style>
+iframe {width:500px;height:90px;}
+.STYLE6 {color: #FF0000}
+.STYLE8 {color: #FF0000; font-weight: bold; }
+</style>
+
+<body>
+<h1 align="left">淘淘搜ops部署验证平台</h1>
+<h2>本地服务器时间:{{time.0}}</h2>
+
+
+<p><strong>*******************************<span class="STYLE6">各业务验证功能</span>***************************</strong><strong>**************</strong><strong>**************</strong></p>
+<p><strong><span class="STYLE6">主站各模块</span></strong></p>
+<p><B>
+  <input name="button8" type="button" onClick="window.location='http://192.168.3.31/www.html'" value="www" />
+</B><B>
+<input name="button8" type="button" onClick="window.open('http://192.168.3.31/app.html','_blank')" value="app"/>
+</B><B>
+<input name="button8" type="button" onClick="window.open('http://192.168.3.31/client.html','_blank')" value="client"/>
+</B> <B>
+<input name="button22" type="button" onClick="window.open('http://192.168.3.31/i.html','_blank')" value="i"/>
+</B><B>
+<input name="button32" type="button" onClick="window.open('http://192.168.3.31/item.html','_blank')" value="item"/>
+</B><B>
+<input name="button42" type="button" onClick="window.open('http://192.168.3.31/search.html','_blank')" value="search"/>
+</B><B>
+<input name="button52" type="button" onClick="window.open('http://192.168.3.31/service.html','_blank')" value="service"/>
+</B><B>
+<input name="button62" type="button" onClick="window.open('http://192.168.3.31/tejia.html','_blank')" value="tejia"/>
+</B><B>
+<input name="button72" type="button" onClick="window.open('http://192.168.3.31/tuan.html','_blank')" value="tuan"/>
+</B><B>
+<input name="button72" type="button" onClick="window.open('http://192.168.3.31/sitemap.html','_blank')" value="sitemap"/>
+</B><B>
+<input name="button72" type="button" onClick="window.open('http://192.168.3.31/dapei.html','_blank')" value="dapei"/>
+</B></p>
+<p><span class="STYLE6"><strong>比价插件</strong></span></p>
+<p><B>
+  <input name="button82" type="button" onClick="window.location='http://192.168.3.31/br.html'" value="比价插件" />
+  </B><B>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/recom.html','_blank')" value="找了又找recom"/>
+  </B><B>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/brclient.html','_blank')" value="client.service"/>
+</B></p>
+<p><span class="STYLE6"><strong>广告</strong></span></p>
+<p><B>
+  <input name="button9" type="button" onClick="window.location='http://192.168.3.31/showmold.html'" value="广告mold接口" />
+</B><B>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/showapp.html','_blank')" value="广告app接口"/>
+    <input name="button82" type="button" onClick="window.open('http://192.168.3.31/showeng.html','_blank')" value="广告eng接口"/>
+  </B><B>
+  </B><B>
+</B></p>
+<p><b>**********************************************************</b><strong>*********</strong><b>*********</b><strong>*********</strong><b>*********</b><strong>*********</strong></p>
+<p><b><span class="STYLE6">主站各模块日志查看页面</span></b></p>
+<p>
+    <input name="button822" type="button" onClick="window.open('http://192.168.3.31/log_index.html','_blank')" value="主站日志页面"/>
+</p>
+
+<p><b>**********************************************************</b><strong>*********</strong><b>*********</b><strong>*********</strong><b>*********</b><strong>*********</strong></p>
+<p><b><span class="STYLE6">运维上传平台</span></b></p>
+<B>
+<p>
+  <input name="button823" type="button" onClick="window.open('http://192.168.3.31/regist.html','_blank')" value="OPS上传平台"/>
+</p>
+</B>
+<p><b>**********************************************************</b><strong>*********</strong><b>*********</b><strong>*********</strong><b>*********</b><strong>*********</strong></p>
+<p><b><span class="STYLE6">主站发布页面</span></b></p>
+<B>
+<p>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/zzbs.html','_blank')" value="主站www发布页面"/>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/zzbs-app.html','_blank')" value="主站app发布页面"/>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/zzbs-client.html','_blank')" value="主站client发布页面"/>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/zzbs-i.html','_blank')" value="主站i发布页面"/>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/zzbs-item.html','_blank')" value="主站item发布页面"/>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/zzbs-search.html','_blank')" value="主站search发布页面"/>
+</p>
+<p>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/zzbs-service.html','_blank')" value="主站service发布页面"/>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/zzbs-tejia.html','_blank')" value="主站tejia发布页面"/>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/zzbs-tuan.html','_blank')" value="主站tuan发布页面"/>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/zzbs-sitemap.html','_blank')" value="主站sitemap发布页面"/>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/zzbs-dapei.html','_blank')" value="主站dapei发布页面"/>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/zzbs-back.html','_blank')" value="主站back发布页面"/>
+</p>
+</B>
+<p><b>*********************************************************</b><strong>*********</strong><b>*********</b><strong>*********</strong><b>*********</b><strong>*********</strong></p>
+<p><b><span class="STYLE6">memcache监控</span></b></p>
+<p><B>
+  <input name="button82" type="button" onClick="window.open('http://192.168.3.31/mem.html','_blank')" value="缓存监控登录"/>
+</B><B>
+</B></p>
+<p><b>*********************************************************</b><strong>*********</strong><b>*********</b><strong>*********</strong><b>*********</b><strong>*********</strong></p>
+  <li><B>操作系统类型：：<span style="color:red">{{uname1.0}}</span></B></li>
+<li>-----------------------------------------</li>
+<li><B>系统版本与内核：：<span style="color:red">{{uname2}}</span></B></li>
+<li>-----------------------------------------</li>
+<li><B>网络名：：<span style="color:red">{{uname1.1}}</span></B></li>
+<li>-----------------------------------------</li>
+<li><B>操作系统位数：：<span style="color:red">{{uname1.4}}</span></B></li>
+<li>-----------------------------------------</li>
+<li><B>服务器逻辑CPU为::----<span style="color:red">{{bits}}</span>-----个</B></li>
+<li>-----------------------------------------</li> 
+<li><B>当前运行的服务器程序总数为::----<span style="color:red">{{pids.0}}</span>----</B></li>
+<li>-----------------------------------------</li>
+<li><B>服务器的CPU型号::<span style="color:red">{{ cpu.0 }}</span></B></li>
+<p>&nbsp;</p>

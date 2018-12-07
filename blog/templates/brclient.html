@@ -1,0 +1,35 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>验证主站接口</title>
+<style type="text/css">
+<!--
+.STYLE3 {font-family: "宋体"}
+.STYLE4 {
+	font-size: 24px;
+	font-weight: bold;
+}
+.STYLE5 {font-size: 24px}
+.STYLE6 {font-size: 16px}
+-->
+</style>
+</head>
+<br />
+
+<body>
+<h1 align="center"><span class="STYLE3">验证http://client.service.taotaosou.com</span></h1>
+
+<div align="left">
+
+  <p><span class="STYLE4"> 该业务共<span style="color:red">{{AA}}</span>个节点</span><span class="STYLE5">:::</span></p>
+  <p>&nbsp;</p>
+</div>
+{% for i in TT %}
+<li class="STYLE6">{{ i }}</li>
+{% endfor %}
+
+<p>&nbsp;</p>
+</body>
+
+</html>
+
+

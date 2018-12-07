@@ -1,0 +1,2 @@
+http://10.0.0.38:7180/bannerList.do
+http://10.0.0.46:7180/bannerList.do
